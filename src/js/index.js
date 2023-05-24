@@ -23,7 +23,7 @@ botaoAlterarTema.addEventListener("click", () => {
         body.classList.remove("modo-escuro");
         
         //Troca a imagem da lua para o sol
-        imagemBotaoTrocaDeTema.setAttribute("src", "/src/images/sun.png");
+        imagemBotaoTrocaDeTema.setAttribute("src", "./src/images/sun.png");
 
     } else {
 
@@ -31,7 +31,7 @@ botaoAlterarTema.addEventListener("click", () => {
         body.classList.add("modo-escuro");
     
         //Pega a variável da imagem e define outro atributo
-        imagemBotaoTrocaDeTema.setAttribute("src", "/src/images/moon.png");
+        imagemBotaoTrocaDeTema.setAttribute("src", "./src/images/moon.png");
 
     }
     
